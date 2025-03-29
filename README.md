@@ -1,6 +1,3 @@
-Here's the complete README.md in a single code block:
-
-```markdown
 # FitPy 🏋️
 
 **Your Personal Fitness Journey Companion**  
@@ -56,7 +53,6 @@ git clone https://github.com/Adarsh-m-0/Fitpy.git
 cd Fitpy
 flutter pub get
 flutter run
-```
 
 ### Build Releases
 ```bash
