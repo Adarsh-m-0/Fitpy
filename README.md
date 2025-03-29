@@ -8,9 +8,6 @@ An open-source fitness tracking application built with Flutter.
 [![GitHub Issues](https://img.shields.io/github/issues/Adarsh-m-0/Fitpy)](https://github.com/Adarsh-m-0/Fitpy/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-<p align="center">
-  <img src="assets/app_icon.png" width="200" alt="FitPy Logo">
-</p>
 
 ## Table of Contents
 - [Features](#-features)
