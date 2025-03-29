@@ -1,97 +1,113 @@
-# FitPy
+# FitPy 🏋️♂️
 
 **Your Personal Fitness Journey Companion**  
 An open-source fitness tracking and workout management application built with Flutter.
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Flutter](https://img.shields.io/badge/Flutter-3.19+-blue.svg)
-![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)
-![GitHub Issues](https://img.shields.io/github/issues/Adarsh-m-0/Fitpy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Flutter](https://img.shields.io/badge/Flutter-3.19+-blue.svg)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)](https://dart.dev)
+[![GitHub Issues](https://img.shields.io/github/issues/Adarsh-m-0/Fitpy)](https://github.com/Adarsh-m-0/Fitpy/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+<p align="center">
+  <img src="assets/app_icon.png" width="200" alt="FitPy Logo">
+</p>
 
 ## 📌 Table of Contents
-- [About](#about)
-- [Key Features](#key-features)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-- [Roadmap](#roadmap)
-- [License](#license)
+- [About](#-about)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Contributing](#-contributing)
+- [Roadmap](#-roadmap)
+- [License](#-license)
 
 ---
 
 ## 📖 About
 
-**FitPy** is a comprehensive fitness tracking application designed to help you **monitor, manage, and maximize** your fitness journey. Whether you're a beginner or a seasoned athlete, FitPy provides powerful tools to track your workouts, monitor progress, and stay motivated.
+FitPy is a comprehensive fitness tracking application designed to help you **monitor, manage, and maximize** your fitness journey. Whether you're a beginner or a seasoned athlete, FitPy provides powerful tools to track workouts, monitor progress, and stay motivated - all while respecting your privacy.
 
-Unlike many fitness apps that require internet connectivity or subscriptions, FitPy prioritizes **privacy** by storing all data **locally** on your device with **no account requirements**.
+**Key Differentiators:**
+- 🛡️ 100% offline functionality
+- 🔒 Zero account requirements
+- 📱 Mobile-first design
+- 🧩 Extensible architecture
+- 🌐 Open source community-driven
 
 ---
 
-## 🚀 Key Features
+## 🌟 Features
 
-### ✅ Workout Tracking
-- Track daily workouts with detailed exercise information
-- Record **sets, reps, and weights** for strength training
-- Monitor **bodyweight exercises** with progressive overload tracking
-- Add **notes** to workouts for future reference
+### 🏋️ Workout Management
+- **Exercise Tracking**: Log sets, reps, weights, and duration
+- **Program Builder**: Create custom workout routines
+- **Progress Visualization**: Interactive charts for strength gains
+- **Body Metrics**: Track weight, body fat %, and measurements
 
-### 📈 Weight Progress Monitoring
-- Log weight measurements over time
-- Visualize weight trends with intuitive **charts**
-- Set **goals** and track fluctuations over time
+### 📊 Analytics & Insights
+- **Performance Trends**: Visualize progress with interactive graphs
+- **Personal Records**: Auto-detected PR highlighting
+- **Workout History**: Calendar view with historical data
+- **Export Data**: CSV export for personal analysis
 
-### 🗓️ Guided Fitness Programs
-- Follow **structured workout programs** tailored to your fitness level
-- Track program **completion** with visual progress indicators
-- Adaptive routines that evolve with your fitness level
+### 🎯 Guided Programs
+- **Beginner-Friendly**: 4-week starter programs
+- **Progressive Overload**: Adaptive workout suggestions
+- **Rest Timer**: Built-in interval timer
+- **Exercise Library**: 150+ exercises with animations
 
-### 💪 Exercise Library
-- Access a **diverse collection** of strength and bodyweight exercises
-- **Filter exercises** by muscle groups
-- View **proper form** and technique recommendations
-- **Customize exercises** to match your specific needs
+### 🎮 Gamification
+- **Achievements**: Unlock fitness milestones
+- **Streaks**: Maintain workout consistency
+- **Badges**: Earn rewards for PRs
+- **Challenges**: Monthly fitness challenges
 
-### 🏆 Achievement System
-- Earn **achievements** as you reach fitness milestones
-- Track **consistency** with a workout calendar
-- Celebrate **personal records** and workout streaks
-
-### ⚙️ Personalization & Convenience
-- **Dark/light mode** for comfortable viewing
-- Modern **Material You** design
-- **Offline-first**: No internet required, all data stored locally
-- **Privacy-focused**: No data sharing or account needed
+### ⚙️ Personalization
+- **Dark/Light Mode**: Eye-friendly themes
+- **Custom Units**: kg/lb toggle
+- **Reminders**: Daily workout notifications
+- **Backup/Restore**: Local data management
 
 ---
 
 ## 📸 Screenshots
 
-🚧 *Coming Soon*
+| Dashboard | Workout Tracking | Progress Analytics |
+|-----------|------------------|--------------------|
+| <img src="screenshots/dashboard.png" width="300"> | <img src="screenshots/workout.png" width="300"> | <img src="screenshots/analytics.png" width="300"> |
 
 ---
 
 ## 📥 Installation
 
 ### Prerequisites
-- [Flutter](https://flutter.dev/docs/get-started/install) (v3.19.0 or higher)
-- [Dart](https://dart.dev/get-dart) (v3.0.0 or higher)
-- Android Studio / VS Code with Flutter extensions
+- Flutter 3.19.0+
+- Dart 3.0.0+
+- Android Studio/Xcode (for mobile builds)
+- VS Code/IntelliJ (recommended IDE)
 
-### 📌 Option 1: Install from Release
-1. Visit the [Releases](https://github.com/Adarsh-m-0/Fitpy/releases) page
-2. Download the latest APK file
-3. Install on your Android device
+### Installation Options
 
-### 🛠️ Option 2: Build from Source
+#### Option 1: Production Build (Android APK)
+1. Download latest APK from [Releases](https://github.com/Adarsh-m-0/Fitpy/releases)
+2. Enable "Install from unknown sources" in device settings
+3. Install and launch
+
+#### Option 2: Development Setup
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/Adarsh-m-0/Fitpy.git
-
-# Navigate to project directory
 cd Fitpy
+
+# Install dependencies
+flutter pub get
+
+# Run development build
+flutter run
 
 # Install dependencies
 flutter pub get
